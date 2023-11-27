@@ -1,0 +1,18 @@
+JOB   Extent_22010    FindHadronicSubmitter.sub
+VARS  Extent_22010   inputs="022010" basename="HadCasc_022010"
+Retry Extent_22010  2
+JOB   Extent_22011    FindHadronicSubmitter.sub
+VARS  Extent_22011   inputs="022011" basename="HadCasc_022011"
+Retry Extent_22011  2
+JOB   Extent_22012    FindHadronicSubmitter.sub
+VARS  Extent_22012   inputs="022012" basename="HadCasc_022012"
+Retry Extent_22012  2
+JOB   Extent_22013    FindHadronicSubmitter.sub
+VARS  Extent_22013   inputs="022013" basename="HadCasc_022013"
+Retry Extent_22013  2
+JOB   Extent_22014    FindHadronicSubmitter.sub
+VARS  Extent_22014   inputs="022014" basename="HadCasc_022014"
+Retry Extent_22014  2
+JOB   Extent_22015    FindHadronicSubmitter.sub
+VARS  Extent_22015   inputs="022015" basename="HadCasc_022015"
+Retry Extent_22015  2

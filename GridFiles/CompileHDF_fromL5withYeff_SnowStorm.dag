@@ -1,0 +1,18 @@
+JOB NuGen022010 I3Compiler.sub
+VARS NuGen022010 infile="022010" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022010"
+JOB NuGen022012 I3Compiler.sub
+VARS NuGen022012 infile="022012" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022012"
+JOB NuGen022013 I3Compiler.sub
+VARS NuGen022013 infile="022013" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022013"
+JOB NuGen022014 I3Compiler.sub
+VARS NuGen022014 infile="022014" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022014"
+JOB NuGen022015 I3Compiler.sub
+VARS NuGen022015 infile="022015" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022015"
+JOB NuGen022016 I3Compiler.sub
+VARS NuGen022016 infile="022016" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022016"
+JOB NuGen022017 I3Compiler.sub
+VARS NuGen022017 infile="022017" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022017"
+JOB NuGen022018 I3Compiler.sub
+VARS NuGen022018 infile="022018" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022018"
+JOB NuGen022011 I3Compiler.sub
+VARS NuGen022011 infile="022011" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="NuGen022011"

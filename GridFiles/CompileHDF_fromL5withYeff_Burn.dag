@@ -1,0 +1,4 @@
+JOB Burn_2016 I3Compiler.sub
+VARS Burn_2016 infile="2016" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="Burn_2016_Compile"
+JOB Burn_2017 I3Compiler.sub
+VARS Burn_2017 infile="2017" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="Burn_2017_Compile"

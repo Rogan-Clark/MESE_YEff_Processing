@@ -1,0 +1,10 @@
+JOB MuGun021315 I3Compiler.sub
+VARS MuGun021315 infile="021315" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="MuGun021315"
+JOB MuGun021316 I3Compiler.sub
+VARS MuGun021316 infile="021316" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="MuGun021316"
+JOB MuGun021317 I3Compiler.sub
+VARS MuGun021317 infile="021317" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="MuGun021317"
+JOB MuGun021318 I3Compiler.sub
+VARS MuGun021318 infile="021318" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="MuGun021318"
+JOB MuGun021319 I3Compiler.sub
+VARS MuGun021319 infile="021319" outfile="/data/user/rclark/TauSimProject/InelasicityHDF" basefile="MuGun021319"

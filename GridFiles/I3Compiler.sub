@@ -1,0 +1,24 @@
+should_transfer_files = YES
+transfer_input_files =/home/rclark/scripts/RF_and_NNMScripts/I3ToHdfCombiner_onepercentveto.py
+transfer_output_files = ""
+
+Requirements = HAS_CVMFS_icecube_opensciencegrid_org && (OpSysMajorVer =?= 7) && (GLIDEIN_Site =!= "Nebraska") && (GLIDEIN_Site =!= "ComputeCanada-Cedar") && (GLIDEIN_Site =!= "KIT") && (GLIDEIN_Site =!= "NotreDame") && (GLIDEIN_Site =!= "FNAL") && (GLIDEIN_Site =!= "Colorado")
+#request_memory = (NumJobStarts is undefined) ? 2 * pow(2, 10) : 2048 * pow(2, NumJobStarts + 1)
+request_memory = 15GB
+
++TransferOutput=""
+
+executable=/home/rclark/scripts/RF_and_NNMScripts/I3ToHdfCombiner_onepercentveto.py
+output=/scratch/rclark/MC_analysis/dag_files/$(basefile)_L5_TRUE.out
+error=/scratch/rclark/MC_analysis/dag_files/$(basefile)_L5_TRUE.err
+log=/scratch/rclark/MC_analysis/dag_files/$(basefile)_L5_TRUE.log
+
+##request_memory = 6GB
+request_disk = 2GB
+universe = vanilla
+notification = never
+
+arguments = -i $(infile) -o $(outfile)
+ 
+use_x509userproxy=true
+queue 
