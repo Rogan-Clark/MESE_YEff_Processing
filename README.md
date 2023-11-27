@@ -33,7 +33,6 @@ Quick and easy guide
 Everything else
 
 FindHadronicCascadeExtent does what it says on the tin - finds the average and maximum positions of 
-
 all particles produced from the hadronic cascade in CC interactions
 
 
